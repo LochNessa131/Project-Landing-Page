@@ -1,2 +1,2 @@
 # Project-Landing-Page
-This project will create an entire web page from scratch. 
+Hello Reader, Welcome to my first major project. In this project, I will be creating a web page from scratch. This will include the use of HTML, CSS, and Flexbox. 
