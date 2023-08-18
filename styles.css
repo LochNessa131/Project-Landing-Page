@@ -1,9 +1,15 @@
+* {
+  font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
 .header {
   background-color: #1F2937;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
+  border: red solid;
+  padding-left: 3em;
 }
 
 .logo {
@@ -16,9 +22,37 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  padding-right: 3em;
 }
 
-.hlink {
+.hlink,
+.main-title {
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.main-text {
+  outline: green solid;
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 3em;
+}
+
+.left-side {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+
+button {
+  background-color: #3882f6;
+  color: #E5E7EB;
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 5px 25px;
+  border: none;
+  font-weight: bold;
 }
