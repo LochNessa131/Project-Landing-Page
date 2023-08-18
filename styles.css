@@ -7,15 +7,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em;
-  border: red solid;
-  padding-left: 3em;
+  padding: 2em;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bolder;
   color: #f9faf8;
+  padding-left: 2em;
 }
 
 .link-right {
@@ -31,21 +30,21 @@
   color: #E5E7EB;
 }
 
-.main-text {
-  outline: green solid;
+.main-1 {
+  outline: red solid;
   background-color: #1F2937;
   display: flex;
   align-items: center;
-  width: 50%;
-  padding: 3em;
+  justify-content: space-evenly;
+  padding: 2em;
 }
 
-.left-side {
+.main-text {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  display: flex;
 }
-
 
 button {
   background-color: #3882f6;
@@ -55,4 +54,14 @@ button {
   padding: 5px 25px;
   border: none;
   font-weight: bold;
+}
+
+.left-side {
+  max-width: 600px;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+  object-fit: stretch;
 }
