@@ -36,8 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 12px 2em;
-
+  padding: 100px;
 }
 
 .main-text {
@@ -66,3 +65,43 @@ img {
   height: 200px;
   object-fit: stretch;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.random {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  padding: 30px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.reference {
+  display: flex;
+  gap: 24px;
+  padding: 24px 12px;
+}
+
+.small-image {
+  height: 150px;
+  width: 150px;
+  padding-bottom: 20px;
+}
+
+.text {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
