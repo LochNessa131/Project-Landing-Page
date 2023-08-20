@@ -127,10 +127,39 @@ img {
 }
 
 .main-4 {
-  padding: 120px;
+  padding: 90px;
+}
+
+.conclusion {
+  background-color: #3882f6;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.sign-up {
+  border: #E5E7EB solid 2px;
+}
+
+.final-text{
+  color: #E5E7EB;
+  font-size: large;
+  font-weight: bold;
+}
+
+.sign-up-summary {
+  color: #E5E7EB;
 }
 
 .footer {
-  padding: 50px;
+  padding: 40px;
   background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: #E5E7EB;
 }
