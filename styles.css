@@ -10,7 +10,7 @@
   justify-content: space-around;
   align-items: center;
   padding: 12px 5px;
-
+  outline:  red dotted;
 }
 
 .logo {
